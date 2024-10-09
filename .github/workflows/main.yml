@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
     - name: Install AWS CLI
       run: |
         curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
@@ -25,7 +25,8 @@ jobs:
     - name: Upload to Cloudflare R2
       run: |
         echo ${{ secrets.R2_BUCKET_NAME }} is bucket name
-        aws s3 sync . s3://${{ secrets.R2_BUCKET_NAME }}/ --endpoint-url=${{ secrets.R2_ENDPOINT_URL }} --exclude ".github/*"  --exclude "awscli-bundle/*" --exclude "awscli-bundle.zip"  --exact-timestamps
+        aws s3 sync . s3://${{ secrets.R2_BUCKET_NAME }}/ --endpoint-url=${{ secrets.R2_ENDPOINT_URL }} --exclude ".git/*" --exclude ".github/*"  --exclude "awscli-bundle/*" --exclude "awscli-bundle.zip"  --exact-timestamps --delete
+        # aws s3 sync . s3://${{ secrets.R2_BUCKET_NAME }}/ --endpoint-url=${{ secrets.R2_ENDPOINT_URL }} --exclude ".git/*" --exclude ".github/*"  --exclude "awscli-bundle/*" --exclude "awscli-bundle.zip"  --exact-timestamps
       env:
         R2_BUCKET_NAME: ${{ secrets.R2_BUCKET_NAME }}
         R2_ENDPOINT_URL: ${{ secrets.R2_ENDPOINT_URL }}
