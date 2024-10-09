@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1000"
+   height="1000"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="DingTalk_2022_(App_Icon).svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.509"
+     inkscape:cx="499.01769"
+     inkscape:cy="500"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <defs
+     id="defs3">
+    <linearGradient
+       x1="44.202599"
+       y1="-8.6543999"
+       x2="110.03039"
+       y2="172.15021"
+       id="b"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#00B6FF"
+         offset="0%"
+         id="stop1" />
+      <stop
+         stop-color="#007FFF"
+         offset="69.663%"
+         id="stop2" />
+      <stop
+         stop-color="#0065FF"
+         offset="100%"
+         id="stop3" />
+    </linearGradient>
+    <path
+       d="m 48.674,0 h 82.652 c 16.925,0 23.063,1.762 29.25,5.071 6.188,3.31 11.044,8.165 14.353,14.353 3.309,6.186 5.071,12.325 5.071,29.25 v 82.652 c 0,16.925 -1.762,23.063 -5.071,29.25 -3.31,6.188 -8.165,11.044 -14.353,14.353 -6.187,3.309 -12.325,5.071 -29.25,5.071 H 48.674 C 31.749,180 25.611,178.238 19.424,174.929 13.236,171.619 8.38,166.764 5.071,160.576 1.762,154.39 0,148.251 0,131.326 V 48.674 C 0,31.749 1.762,25.611 5.071,19.424 8.381,13.236 13.236,8.38 19.424,5.07 25.61,1.762 31.749,0 48.674,0 Z"
+       id="a" />
+  </defs>
+  <g
+     fill="none"
+     fill-rule="evenodd"
+     id="g4"
+     transform="scale(5.5555556)">
+    <mask
+       id="c"
+       fill="#ffffff">
+      <use
+         xlink:href="#a"
+         id="use3" />
+    </mask>
+    <use
+       fill="url(#b)"
+       xlink:href="#a"
+       id="use4"
+       style="fill:url(#b)" />
+    <path
+       d="M 131.622,84.035 C 109.625,67.045 84.825,44.536 57.637,20.404 c -2.143,-1.902 -4.044,-1.153 -5,1.372 -6.122,16.19 -0.187,30.565 9.409,38.853 9.634,8.322 23.96,15.98 32.736,20.047 0.342,0.158 0.042,0.66 -0.303,0.509 C 78.358,74.079 67.148,68.948 51.94,57.214 50.303,55.95 48.644,56.44 48.446,58.907 c -1.244,15.474 8.653,27.628 19.702,31.738 6.836,2.543 14.313,3.95 21.25,4.788 0.362,0.043 0.281,0.579 -0.082,0.58 -8.941,0.028 -19.741,-2.114 -29.085,-5.707 -1.974,-0.76 -2.655,0.816 -2.35,2.064 1.594,6.539 9.677,16.534 22.544,18.635 2.406,0.392 4.972,0.443 7.255,0.376 0.544,-0.016 0.675,0.284 0.5,0.703 0,0 -8.741,14.983 -9.124,15.622 -0.299,0.498 -0.115,0.898 0.505,0.898 h 11.534 c 0.532,0 0.86,0.345 0.588,0.798 -0.273,0.453 -15.401,25.553 -16.118,26.752 -0.623,1.04 0.113,1.84 1.282,0.984 1.17,-0.856 49.518,-36.27 50.899,-37.283 0.633,-0.465 0.482,-1.095 -0.406,-1.095 h -10.346 c -0.673,0 -0.823,-0.452 -0.362,-0.912 0.461,-0.46 11.739,-11.708 15.744,-15.916 4.178,-4.39 6.31,-12.441 -0.754,-17.897"
+       fill="#ffffff"
+       mask="url(#c)"
+       id="path4" />
+  </g>
+</svg>
