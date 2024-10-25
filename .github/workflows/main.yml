@@ -19,6 +19,7 @@ jobs:
     - name: Configure rclone
       run: |
         rclone config create cloudflare_r2 s3 \
+          provider = Cloudflare \
           env_auth=true \
           endpoint=${{ secrets.R2_ENDPOINT_URL }} \
           access_key_id=${{ secrets.CLOUDFLARE_ACCESS_KEY_ID }} \
