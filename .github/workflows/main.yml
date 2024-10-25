@@ -27,4 +27,4 @@ jobs:
 
     - name: Sync files to Cloudflare R2
       run: |
-        rclone sync . cloudflare_r2:${{ secrets.R2_BUCKET_NAME }} --s3-storage-class=STANDARD  --exclude ".git/*" --exclude ".github/*"
+        rclone copy . cloudflare_r2:${{ secrets.R2_BUCKET_NAME }} --s3-storage-class=STANDARD  --exclude ".git/*" --exclude ".github/*"
